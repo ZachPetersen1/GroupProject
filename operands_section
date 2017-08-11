@@ -1,0 +1,81 @@
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+    cout << "Testing 1,2,3" << endl;
+    cout << "Testing 4,5,6" << endl;
+    //This is a placeholder
+}
+
+double mathFunction(double value1, string op1, string op2, double value2, double value3)
+{
+    if (op1 == "+" && op2 == "+")
+    {
+        cout << value1 + value2 + value3;
+    }
+    
+    else if (op1 == "+" && op2 == "-")
+    {
+        cout << value1 + value2 - value3;
+    }
+    
+    else if (op1 == "+" && op2 == "*")
+    {
+        cout << value1 + value2 * value3;
+    }
+    else if (op1 == "+" && op2 == "/")
+    {
+        cout << value1 + value2 / value3;
+    }
+    else if (op1 == "-" && op2 == "+")
+    {
+        cout << value1 - value2 + value3;
+    }
+    else if (op1 == "-" && op2 == "-")
+    {
+        cout << value1 - value2 - value3;
+    }
+    else if (op1 == "-" && op2 == "*")
+    {
+        cout << value1 - value2 * value3;
+    }
+    else if (op1 == "-" && op2 == "/")
+    {
+        cout << value1 - value2 / value3;
+    }
+    else if (op1 == "*" && op2 == "+")
+    {
+        cout << value1 * value2 + value3;
+    }
+    else if (op1 == "*" && op2 == "-")
+    {
+        cout << value1 * value2 - value3;
+    }
+    else if (op1 == "*" && op2 == "*")
+    {
+        cout << value1 * value2 * value3;
+    }
+    else if (op1 == "*" && op2 == "/")
+    {
+        cout << value1 * value2 / value3;
+    }
+    else if (op1 == "/" && op2 == "+")
+    {
+        cout << value1 / value2 + value3;
+    }
+    else if (op1 == "/" && op2 == "-")
+    {
+        cout << value1 / value2 - value3;
+    }
+    else if (op1 == "/" && op2 == "*")
+    {
+        cout << value1 / value2 * value3;
+    }
+    else if (op1 == "/" && op2 == "/")
+    {
+        cout << value1 / value2 / value3;
+    }
+    return 0;
+}
