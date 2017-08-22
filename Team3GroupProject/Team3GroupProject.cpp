@@ -51,9 +51,6 @@ int main()
 	}
 	parsedInput.push_back(sb);
 
-	for (string s : parsedInput)
-		cout << s << endl;
-
 	// Iterate through array looking for operators
 
 	for (unsigned int i = 0; i < parsedInput.size(); i++)
