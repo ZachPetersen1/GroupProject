@@ -116,5 +116,5 @@ string mathFunction(double value1, string op, double value2)    /*declare variab
     {
         answer = value1 / value2;   // division equation
     }
-    return answer.to_string();      //displays answer to equation
+    return answer.to_string();      //casts answer variable to string mathFunction
 }
