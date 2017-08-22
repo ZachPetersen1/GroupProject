@@ -117,3 +117,4 @@ string mathFunction(double value1, string op, double value2)    /*declare variab
         answer = value1 / value2;   // division equation
     }
     return answer;      //displays answer to equation
+}
