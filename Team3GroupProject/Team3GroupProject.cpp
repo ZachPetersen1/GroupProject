@@ -22,7 +22,7 @@ int main()
 {
 	vector<string> parsedInput;
 	string userInput;
-	double result;
+	string sb = "";
 
 	// Prompt user for equation
 	cout << " Enter in a mathematical expression  : " << endl; // Were asking the user to enter in a mathematical expression.
@@ -30,8 +30,6 @@ int main()
 	getline(cin, userInput); // This saves the user input of the users mathematical expression.
 
 	// Parse each number/operator into an array object (delimiters should be " ", "+", "-", "*", "/"...)
-
-	string sb = "";
 
 	for (unsigned int i = 0; i < userInput.length(); i++)
 	{
@@ -71,8 +69,6 @@ int main()
 		}
 
 	}
-
-
 
 	// Print the equation and solution for the user
 	cout << " The result of your mathematical expression equals to : " << parsedInput[0] << endl; // This will display the result of the mathematical expression.
